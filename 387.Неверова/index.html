@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>BaColo</title>
+    <meta name="description" content="Сайт для обучения рисованию и вдохновения"/>
+    <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- Главное меню -->
+	<nav class="navbar navbar-expend-lg navbar-light bg-light">
+		<a class="navbar-brand" href="*">
+			bacolo
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+				area-expended="false" aria-label="Мобильная навигация">
+			<span class="navbar-toggler-icon">
+			</span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="#"> Главное </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="http://google.com" target="_blank"> Гугл </a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#"
+							id="navbarDropdownMenuLink" data-toggle="dropdown"
+							aria-haspopup="true" aria-expended="false">
+							Соц.сети
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="https://vk.com" target="_blank"> vk</a>
+						<a class="dropdown-item" href="https://fb.com" target="_blank"> fb</a>
+						<a class="dropdown-item" href="https://instagram.com" target="_blank"> insta</a>
+					</div>				
+				</li>
+			</ul>
+		</div>
+	</nav>
+    <!-- Слайдер -->	
+    <div class="container">
+		<div class="row">
+			<div id="az-slider" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#az-slider" data-slide-to="0"  class="active"></li>
+					<li data-target="#az-slider" data-slide-to="1"></li>
+					<li data-target="#az-slider" data-slide-to="2"></li>	
+				</ol>
+				<div class="corousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block w-100" src="img/1.jfif" 
+						  alt="1">
+						  <div class="carousel-caption d-non d-md-block">
+						  <h3>Заголовок</h3>
+						  <p>Свойства</p>
+						  </div>
+					</div>
+				<div class="corousel-inner">
+						<img class="d-block w-100" src="img/2.jfif" 
+						  alt="2">
+						  <div class="carousel-caption d-non d-md-block">
+						  <h3>Заголовок</h3>
+						  <p>Свойства</p>
+						  </div>
+				</div>
+				<div class="carousel-item">
+					   <img class="d-block w-100" src="img/3.jfif" 
+						  alt="3">
+						  <div class="carousel-caption d-non d-md-block">
+						  <h3>Заголовок</h3>
+						  <p>Свойства</p>
+						  </div>
+				</div>
+					<a class="carousel-control-prev" href="#az-slider"
+					role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Предыдущий</span>
+					</a>
+					<a class="carousel-control-next" href="#az-slider"
+					role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Следующий</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- Главный контент -->	
+    <div class="container">
+      <div class="row">
+        <div class="az-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <h1>BaColo <span style="color: red;">BaColo</span></h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <p>Сайт, который научит вас основам рисунка, поможет в поиске вдохновения. В BaColo можно и учиться и зарабатывать.</p>
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+          <p><img src="img/ris.jpg" alt="пейзаж" width="100%"></p>
+        </div>
+      </div>
+
+    </div>
+	<div class="container">
+		<!----1 поле---->
+	        <form>
+			    <div class="row">
+			       <div class="col-6">
+					   <div class="form-group">
+						  <label for="elibraryFormName">Ваше имя</label>
+						  <input class="form-control" type="text" id="elibraryFormName" aria-describedby="nameHelp" placeholder="Николай"></input>
+						  <small id="nameHelp" lass="form-text text-muted">Мы хотим с вами познакомиться</small>
+					   </div>
+					</div>
+	        
+		<!----2 поле---->
+					<div class="col-6">
+					   <div class="form-group">
+						  <label for="elibraryFormName">Ваш e-mail</label>
+						  <input class="form-control" type="text" id="elibraryFormName" aria-describedby="emailHelp" placeholder="exampler@mail.ru"></input>
+						  <small id="emailHelp" class="form-text text-muted">Мы не пепередаем почту 3 лицам</small>
+					   </div>
+					</div>
+				</div>
+	       
+		<!----3 поле---->
+	            <div class="row">
+			       <div class="col-6">
+	                   <div class="form-group">
+		                   <label for="elibraryFormName">Текст</label>
+		                   <textarea class="form-control" id="elibraryFormName" placeholder="Ваш текст" rows="5"></textarea>
+		               </div>
+				   </div>
+	        
+		<!----4 поле---->
+	            <div class="col-6">
+	                <div class="form-group">
+		                <label for="elibraryFormSelect">Выберите вариант</label>
+		                <select class="form-control" id="elibraryFormSelect">
+				            <option>Вариант 1</option>
+					        <option>Вариант 2</option>
+					        <option>Вариант 3</option>
+				        </select>
+		            </div>
+				</div>
+				</div>
+	        </form>
+	</div>
+
+
+    <!-- Блок скриптов -->
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </body>
+  <!------------------------------>
+    <div class="container">
+		<!----1 поле---->
+	        <form>
+			    <div class="row">
+			       <div class="col-6">
+					   <div class="form-group">
+						  <label>Ваше имя</label>
+						  <input type="text" name="Aname"></input>
+					   </div>
+				   </div>
+	        
+		<!----2 поле---->
+					<div class="col-6">
+						  <label>Ваш e-mail</label>
+						  <input type="text" name="Amail"></input>
+					</div>
+			    </div>
+	       
+		<!----3 поле---->
+	            <div class="row">
+			       <div class="col-6">
+		                   <label>Ваш телефон</label>
+		                   <input type="text" name="Atel"></input>
+		           </div>
+				  
+	        
+		<!----4 поле---->
+	            <div class="col-6">
+		                <label>Тема письма</label>
+		                <input type="text" name="Atema"></input>
+		            </div>
+		        </div>
+			    <div class="row">
+			       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		                   <label>Сообщение</label>
+		                   <textarea class="form-control" id="elibraryFormName" rows="5"></textarea></br>
+		           </div>
+				</div>
+				<input id="submit" value="Отправить"></input>
+	        </form>
+	 </div>
+    <!-- Блок скриптов -->
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</html>
